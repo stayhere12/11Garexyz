@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>My Portofolio - Andi Nugroho</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- encabezado y menú -->
+        <header>
+            <h1 class="gradient-text">Andi</h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Home</a>
+                <a href="#sobremi" onclick="seleccionar()" >About</a>
+                <a href="#curriculum" onclick="seleccionar()">My Education</a>
+                <a href="#porfolio" onclick="seleccionar()">Porfolio</a>
+                <a href="#contacto" onclick="seleccionar()">Contact</a>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- sección Inicio -->
+        <section id="inicio">
+            <div class="fila">
+                <div class="col">
+                    <p>Hello, I'm Andi Nugroho</p>
+                    <h1 class="gradient-text">Web Design & App</h1>
+                    <button>Contact me</button>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/programmer.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Sobre Mí -->
+        <section id="sobremi">
+            <div class="fila">
+                <div class="col info">
+                    <h3>Introduction</h2>
+                    <h2>Web Design & App</h2>
+                    <p>My Job Is To Build Your Website So That It Is Functional And User-Friendly But At The Same Time Attractive. Moreover, I Add Personal Touch To Your Product And Make Sure That Is Eye-Catching And Easy To Use. My Aim Is To Bring Across Your Message And Identity In The Most Creative Way. I Created Web Design For Many Famous Brand Companies.</p>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/profesi-programmer.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Curriculum -->
+        <section id="curriculum">
+            <h3>My Education</h3>
+            <div class="fila">
+                <div class="col">
+                    <p class="experiencia">Experience</p>
+                    <h2>More than 3 years of experience as a <span class="txtEspecial">Web Design & App</span></h2>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Professional Excellence And Continuous Learnin</h4>
+                            <p>Throughout My Career, I Have Consistently Sought Opportunities To Refine My Skills And Stay Updated With The Latest Technologies. I Strive For Excellence In Every Project I Undertake And Aim To Deliver Valuable And Impactful Results.</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Frontend Web Developer</h4>
+                            <p>After Getting Admission To B.Sc In CSE. I Have Done Courses In HTML, CSE & Javascript And Got Quite Better Skills & Joined As A Front-End Web Developer. There I Learned Practically To Build A Website Project.</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Backend Web Developer</h4>
+                            <p>I Was Always Interested With It World. That Was My Inspiration To Complete Php, Mysql Etc. Now I Am Certified Web Developer & Wordpress Expert. Now I Am Doing Regularly Practice Of My Work.</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Continuing To Make A Difference</h4>
+                            <p>I Am Committed To Leveraging My Skills And Expertise To Contribute To Meaningful Projects That Have A Positive Impact On Society. I Am Eager To Take On New Challenges And Collaborate With Talented Individuals To Create Innovative Solutions.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección porfolio -->
+        <section id="porfolio">
+            <h3>My Porfolio</h3>
+            <div class="fila">
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/t1.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t2.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t3.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/t4.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t5.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t6.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/t7.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t8.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t9.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t10.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t11.jpg" alt="">
+                        <p class="desc">Andi Nugroho</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección contacto -->
+        <section id="contacto">
+            <h3>Contact Me</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/andiingrhoo"><i class="fa-brands fa-square-facebook gradient-text"></i></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B6285860428370&text&type=phone_number&app_absent=0"><i class="fa-brands fa-square-whatsapp gradient-text"></i></a>
+                <a href="https://www.instagram.com/andiingrho_/"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                <a href="https://www.linkedin.com/in/andi-nugroho-214139281/"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+
+            </div>
+            <form action="">
+                <div class="entrada">
+                    <label for="">Name</label>
+                    <input type="text">
+                </div>
+                <div class="entrada">
+                    <label for="">Email</label>
+                    <input type="text">
+                </div>
+                <div class="entrada">
+                    <label for="">Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button>Send</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
